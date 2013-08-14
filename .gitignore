@@ -2,6 +2,9 @@
 [Bb]in/
 [Oo]bj/
 
+# svn files' Folders
+.svn/
+
 # mstest test results
 TestResults
 
