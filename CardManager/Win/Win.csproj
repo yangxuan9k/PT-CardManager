@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{48978C18-CD05-4A86-8F25-31D88197F714}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -75,13 +75,11 @@
       <DependentUpon>AboutITSP2.cs</DependentUpon>
     </Compile>
     <Compile Include="CardInfo\History.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="CardInfo\History.Designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
     <Compile Include="CardInfo\List.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="CardInfo\List.Designer.cs">
       <DependentUpon>List.cs</DependentUpon>
@@ -137,7 +135,6 @@
       <DependentUpon>TimeCard.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
